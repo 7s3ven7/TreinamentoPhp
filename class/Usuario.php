@@ -56,13 +56,32 @@ class Usuario
             $this->setSenha($row['senha']);
         }
     }
-        public function __toString():string
-        {
-            return  Json_encode(array(
-                "id" => $this->getId(),
-                "nome" => $this->getNome(),
-                "email" => $this->getEmail(),
-                "senha" => $this->getSenha()
-            ));
+    public static function getList():array{
+        $sql = new Sql();
+        return $resultado = $sql->select("SELECT * FROM cadastrados ORDER BY nome ASC");
+    }
+
+    public static function searchPerson($login):array
+    {
+        $sql = new Sql();
+        return $resultado = $sql->select("SELECT * FROM cadastrados WHERE nome LIKE :nome",array(":nome"=>"%".$login."%"));
+    }
+    public static function validar($nome, $senha):string{
+        $sql = new Sql();
+        $resultado = $sql->select("SELECT (nome, senha) FROM cadastrados WHERE nome = :nome",array(":nome"=>$nome));
+        if($resultado[0] == $nome && $resultado[1] == $senha){
+            return "Seu Login foi feito com sucesso! ". $resultado[0];
+        }else{
+            return "Seu Login não foi feito com sucesso!";
         }
+    }
+    public function __toString():string
+    {
+        return  Json_encode(array(
+            "id" => $this->getId(),
+            "nome" => $this->getNome(),
+            "email" => $this->getEmail(),
+            "senha" => $this->getSenha()
+        ));
+    }
 }

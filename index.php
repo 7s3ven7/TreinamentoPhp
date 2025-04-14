@@ -6,6 +6,8 @@ require_once "config.php";
 $resultado = $sql->select("SELECT * FROM cadastrados");
 echo json_encode($resultado);*/
 
-$wesley = new Usuario();
-$wesley->LoadById(2);
-echo $wesley;
+//$wesley = new Usuario();
+//$wesley->LoadById(2);
+//echo json_encode(Usuario::getList());
+
+echo Usuario::validar("wesley","123123");
