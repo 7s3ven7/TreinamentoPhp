@@ -1,10 +1,16 @@
 <?php
 
-$name = "imagens";
-if(!is_dir($name)){
-    mkdir($name);
-    echo "o dietório de imagens foi criado com sucesso!\n";
-}else{
-    echo "já existe este diretorio, e foi apagado!\n";
+$file = "testes.txt";
+
+if(file_exists($file)){
+    $file = fopen($file, "r");
+    $header = fgets($file);
+
+    var_dump($header);
+
+    while ($row = fgets($file)) {
+        var_dump($row);
+    }
 }
-var_dump(scandir($name));
+fclose($file);
+
