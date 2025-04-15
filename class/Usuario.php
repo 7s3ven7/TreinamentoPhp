@@ -59,6 +59,15 @@ class Usuario
             return "not found datas.";
         }
     }
+    public function loadByEmail():bool{
+        $sql = new Sql();
+        $resultado = $sql->select("SELECT * FROM cadastrados WHERE email = :email",array("email"=>$this->getEmail()));
+        if(isset($resultado[0])){
+            return true;
+        }else{
+            return false;
+        }
+    }
     public static function getList():array{
         $sql = new Sql();
         return $sql->select("SELECT * FROM cadastrados ORDER BY nome ASC");
@@ -82,8 +91,20 @@ class Usuario
     }
 
     public function insert():void{
-        $sql = new Sql();
-        $sql->consult("INSERT INTO cadastrados (email,senha,nome) VALUES (:email,:senha,:nome)",array("email"=>$this->getEmail(),'senha'=>$this->getSenha(),"nome"=>$this->getNome()));
+        $cadastrar = new Sql();
+        if($this->loadByEmail()){
+        }else{
+            $cadastrar->consult("INSERT INTO cadastrados (email,senha,nome) VALUES (:email,:senha,:nome)",
+                array("email"=>$this->getEmail(),'senha'=>$this->getSenha(),"nome"=>$this->getNome()));
+        }
+    }
+    public function __construct($nome = "",$login = "",$password = ""){
+
+        $this->setNome($nome);
+        $this->setEmail($login);
+        $this->setSenha($password);
+        $this->insert();
+
     }
     public function __toString():string{
         return  Json_encode(array(
