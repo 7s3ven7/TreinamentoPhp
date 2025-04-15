@@ -67,7 +67,20 @@ class Usuario
     public static function searchPerson($login):array
     {
         $sql = new Sql();
-        return $resultado = $sql->select("SELECT * FROM cadastrados WHERE nome LIKE :nome",array(":nome"=>"%".$login."%"));
+        return $resultado = $sql->select("SELECT * FROM cadastrados WHERE nome LIKE :nome",array(":nome"=>'%'.$login.'%'));
+    }
+    public function login(string $login, string $senha):string{
+        $sql = new Sql();
+        $resultado = $sql->select("SELECT * FROM cadastrados WHERE email = :email AND senha = :senha",array("email"=>$login,'senha'=>$senha));
+        if(isset($resultado[0])){
+            $row = $resultado[0];
+            $this->setId($row['id']);
+            $this->setNome($row['nome']);
+            $this->setEmail($row['email']);
+            $this->setSenha($row['senha']);
+            return true;
+        }else{
+        }
     }
     public function __toString():string
     {

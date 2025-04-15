@@ -19,7 +19,7 @@ $wesley->setEmail("wesley@gmail.com");
 echo "email:" . $wesley->getEmail() . "\n";
 $wesley->setSenha("123123");
 echo "senha:" . $wesley->getSenha() . "\n";*/
-
-echo $wesley->loadById(2);
-
-echo $wesley->__toString();
+$wesley->login("admin@gmail.com", "wesleys");
+/*echo $wesley->loadById(2);
+echo json_encode(Usuario::searchPerson("we"));
+echo $wesley->__toString();*/
