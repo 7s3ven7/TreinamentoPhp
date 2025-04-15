@@ -5,14 +5,14 @@ class Usuario
     private int $id;
     private String $nome,$email,$senha;
 
+    public function setId(int $id):void
+    {
+        $this->id = $id;
+    }
+
     public function getId(): int
     {
         return $this->id;
-    }
-
-    public function setId(int $id): void
-    {
-        $this->id = $id;
     }
 
     public function getNome(): String
@@ -45,7 +45,7 @@ class Usuario
         $this->senha = $senha;
     }
 
-    public function loadById(int $id):void{
+    public function loadById(int $id):string{
         $sql = new Sql();
         $resultado = $sql->select("SELECT * FROM cadastrados WHERE id = :id",array("id"=>$id));
         if(isset($resultado[0])){
@@ -54,6 +54,9 @@ class Usuario
             $this->setNome($row['nome']);
             $this->setEmail($row['email']);
             $this->setSenha($row['senha']);
+            return true;
+        }else{
+            return "not found datas.";
         }
     }
     public static function getList():array{
@@ -65,15 +68,6 @@ class Usuario
     {
         $sql = new Sql();
         return $resultado = $sql->select("SELECT * FROM cadastrados WHERE nome LIKE :nome",array(":nome"=>"%".$login."%"));
-    }
-    public static function validar($nome, $senha):string{
-        $sql = new Sql();
-        $resultado = $sql->select("SELECT (nome, senha) FROM cadastrados WHERE nome = :nome",array(":nome"=>$nome));
-        if($resultado[0] == $nome && $resultado[1] == $senha){
-            return "Seu Login foi feito com sucesso! ". $resultado[0];
-        }else{
-            return "Seu Login não foi feito com sucesso!";
-        }
     }
     public function __toString():string
     {

@@ -10,4 +10,16 @@ echo json_encode($resultado);*/
 //$wesley->LoadById(2);
 //echo json_encode(Usuario::getList());
 
-echo Usuario::validar("wesley","123123");
+$wesley = new Usuario();
+/*$wesley->setId(1);
+echo "id:" . $wesley->getId() . "\n";
+$wesley->setNome("Wesley");
+echo "nome:" . $wesley->getNome() . "\n";
+$wesley->setEmail("wesley@gmail.com");
+echo "email:" . $wesley->getEmail() . "\n";
+$wesley->setSenha("123123");
+echo "senha:" . $wesley->getSenha() . "\n";*/
+
+echo $wesley->loadById(2);
+
+echo $wesley->__toString();
