@@ -87,6 +87,7 @@ class Usuario
             $this->setNome($row['nome']);
             $this->setEmail($row['email']);
             $this->setSenha($row['senha']);
+            echo "Login efetuado com sucesso!\n";
         }
     }
 
@@ -96,6 +97,7 @@ class Usuario
         }else{
             $cadastrar->consult("INSERT INTO cadastrados (email,senha,nome) VALUES (:email,:senha,:nome)",
                 array("email"=>$this->getEmail(),'senha'=>$this->getSenha(),"nome"=>$this->getNome()));
+            echo "Cadastrado com sucesso!\n";
         }
     }
 
@@ -105,6 +107,15 @@ class Usuario
             "email"=>$email,"senha"=>$senha,"nome"=>$nome,"id"=>$this->getId()));
     }
 
+    public function Delete():void{
+        $sql = new Sql();
+        $sql->consult("DELETE FROM cadastrados WHERE id = :id",array("id"=>$this->getId()));
+        $this->setId(0);
+        $this->setNome("");
+        $this->setEmail("");
+        $this->setSenha("");
+        echo "DELETADO\n";
+    }
     public function __construct($nome = "",$login = "",$password = ""){
 
         $this->setNome($nome);
@@ -112,6 +123,7 @@ class Usuario
         $this->setSenha($password);
         $this->insert();
         $this->login($login,$password);
+        echo "construido com sucesso!\n";
 
 
     }
