@@ -61,27 +61,26 @@ class Usuario
     }
     public static function getList():array{
         $sql = new Sql();
-        return $resultado = $sql->select("SELECT * FROM cadastrados ORDER BY nome ASC");
+        return $sql->select("SELECT * FROM cadastrados ORDER BY nome ASC");
     }
 
     public static function searchPerson($login):array
     {
         $sql = new Sql();
-        return $resultado = $sql->select("SELECT * FROM cadastrados WHERE nome LIKE :nome",array(":nome"=>'%'.$login.'%'));
+        return $sql->select("SELECT * FROM cadastrados WHERE nome LIKE :nome",array(":nome"=>'%'.$login.'%'));
     }
     public function login(string $login, string $senha):void{
         $sql = new Sql();
         $resultado = $sql->select("SELECT * FROM cadastrados WHERE email = :email AND senha = :senha",array("email"=>$login,'senha'=>$senha));
         if(isset($resultado[0])){
-            $row = $resultado[0];
-            $this->setId($row['id']);
-            $this->setNome($row['nome']);
-            $this->setEmail($row['email']);
-            $this->setSenha($row['senha']);
-        }
+                $row = $resultado[0];
+                $this->setId($row['id']);
+                $this->setNome($row['nome']);
+                $this->setEmail($row['email']);
+                $this->setSenha($row['senha']);
+            }
     }
-    public function __toString():string
-    {
+        public function __toString():string{
         return  Json_encode(array(
             "id" => $this->getId(),
             "nome" => $this->getNome(),
