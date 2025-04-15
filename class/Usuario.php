@@ -80,6 +80,11 @@ class Usuario
             $this->setSenha($row['senha']);
         }
     }
+
+    public function insert():void{
+        $sql = new Sql();
+        $sql->consult("INSERT INTO cadastrados (email,senha,nome) VALUES (:email,:senha,:nome)",array("email"=>$this->getEmail(),'senha'=>$this->getSenha(),"nome"=>$this->getNome()));
+    }
     public function __toString():string{
         return  Json_encode(array(
             "id" => $this->getId(),
