@@ -2,5 +2,5 @@
 
 require_once "config.php";
 
-$wesley = new Usuario("Joao","administrador@gmail.com","Politico");
-$wesley->insert();
+$wesley = new Usuario("Joao","administrador123@gmail.com","Politico");
+$wesley->Update("adminNovo@gmail.com", "SenhaNova","WesleyFeio");

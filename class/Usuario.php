@@ -98,12 +98,21 @@ class Usuario
                 array("email"=>$this->getEmail(),'senha'=>$this->getSenha(),"nome"=>$this->getNome()));
         }
     }
+
+    public function Update($email, $senha, $nome):void{
+        $sql = new Sql();
+        $sql->consult("UPDATE cadastrados SET email = :email, senha = :senha, nome = :nome WHERE id = :id",array(
+            "email"=>$email,"senha"=>$senha,"nome"=>$nome,"id"=>$this->getId()));
+    }
+
     public function __construct($nome = "",$login = "",$password = ""){
 
         $this->setNome($nome);
         $this->setEmail($login);
         $this->setSenha($password);
         $this->insert();
+        $this->login($login,$password);
+
 
     }
     public function __toString():string{
