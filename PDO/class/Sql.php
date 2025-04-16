@@ -16,7 +16,8 @@ class Sql
         }
     }
 
-    public function setParam($prepare, $key, $value):void{
+    public function setParam($prepare, $key, $value): void
+    {
         $prepare->bindValue($key, $value);
     }
 
