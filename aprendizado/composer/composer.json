@@ -1,0 +1,20 @@
+{
+    "name": "wesley/composer",
+    "description": "composer para meio de aprendizado",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Wesley\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wesley",
+            "email": "wesley_g_rodrigues@estudante.sesisenai.org.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
