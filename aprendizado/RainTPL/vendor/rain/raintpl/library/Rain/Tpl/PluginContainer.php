@@ -23,9 +23,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace aprendizado\RainTPL\vendor\rain\raintpl\library\Rain\Tpl;
-
-use Rain\Tpl\IPlugin;
+namespace Rain\Tpl;
 
 /**
  * Maintains template plugins and call hook methods.

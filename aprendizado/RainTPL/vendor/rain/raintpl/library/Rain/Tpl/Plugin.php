@@ -23,9 +23,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace aprendizado\RainTPL\vendor\rain\raintpl\library\Rain\Tpl;
-
-use Rain\Tpl\IPlugin;
+namespace Rain\Tpl;
 
 require_once __DIR__ . '/IPlugin.php';
 

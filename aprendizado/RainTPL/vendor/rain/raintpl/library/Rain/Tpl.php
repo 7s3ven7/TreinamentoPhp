@@ -23,11 +23,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace aprendizado\RainTPL\vendor\rain\raintpl\library\Rain;
-
-use Rain\anonymous;
-use Rain\regexp;
-use Rain\type;
+namespace Rain;
 
 /**
  *  RainTPL

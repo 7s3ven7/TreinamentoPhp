@@ -23,7 +23,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace aprendizado\RainTPL\vendor\rain\raintpl\library\Rain\Tpl;
+namespace Rain\Tpl;
 
 /**
  * Basic Rain tpl exception.

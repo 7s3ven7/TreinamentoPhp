@@ -23,9 +23,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace aprendizado\RainTPL\vendor\rain\raintpl\library\Rain\Tpl;
-
-use Rain\Tpl\Exception;
+namespace Rain\Tpl;
 
 /**
  * Exception thrown when syntax error occurs.
