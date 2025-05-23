@@ -2,13 +2,215 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/composer/src" isTestSource="false" packagePrefix="Wesley\Composer\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um" isTestSource="false" packagePrefix="process" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/composer/src" isTestSource="false" packagePrefix="Wesley\Composer\" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/slimFramework/vendor/slim/slim/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/7s3ven7/php-class/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/app" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/app" isTestSource="false" packagePrefix="MyFramework\" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Controller" isTestSource="false" packagePrefix="MyApp\Controller\" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Entity" isTestSource="false" packagePrefix="MyApp\Entity\" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Middleware" isTestSource="false" packagePrefix="MyApp\Middleware\" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Repository" isTestSource="false" packagePrefix="MyApp\Repository\" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Service" isTestSource="false" packagePrefix="MyApp\Service\" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Tests" isTestSource="false" packagePrefix="MyApp\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Tests/Entity" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Tests/Middleware" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Tests/Repository" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/CRUD/Validator" isTestSource="false" packagePrefix="MyApp\Validator\" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/." isTestSource="false" packagePrefix="process\" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/code/FileManipulator" isTestSource="false" packagePrefix="Files\" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/code/Repository" isTestSource="false" packagePrefix="Repository\" />
+      <sourceFolder url="file://$MODULE_DIR$/Entity" isTestSource="false" packagePrefix="Entity\" />
+      <sourceFolder url="file://$MODULE_DIR$/Service" isTestSource="false" packagePrefix="Service\" />
+      <sourceFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/projeto/classes_php/src" isTestSource="false" packagePrefix="wesley\" />
+      <sourceFolder url="file://$MODULE_DIR$/Validator" isTestSource="false" packagePrefix="Validator\" />
       <excludeFolder url="file://$MODULE_DIR$/Email/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/Email/vendor/phpmailer/phpmailer" />
       <excludeFolder url="file://$MODULE_DIR$/RainTPL/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/RainTPL/vendor/rain/raintpl" />
       <excludeFolder url="file://$MODULE_DIR$/composer/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/composer/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/slimFramework/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/slimFramework/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/Email/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/Email/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/RainTPL/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/RainTPL/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/RainTPL/vendor/rain/raintpl" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/composer/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/composer/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/CRUD/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/APIsChatgpt/um/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/Mock/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/PhpOffice/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/slim/http" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/API/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/slimFramework/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/aprendizado/slimFramework/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/rain/raintpl" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/doZero/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/projeto/classes_php" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/rain/raintpl" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/projetoEcomerce/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/staabm/side-effects-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/tecnickcom/tcpdf" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

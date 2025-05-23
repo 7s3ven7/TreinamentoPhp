@@ -1,5 +1,12 @@
 {
-  "require":{
-    "slim/slim": "2.0"
+  "require": {
+    "tecnickcom/tcpdf": "6.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Service\\": "Service/",
+      "Validator\\": "Validator/",
+      "Entity\\": "Entity/"
+    }
   }
 }
