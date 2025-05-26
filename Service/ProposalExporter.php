@@ -1,59 +1,23 @@
 <?php
 namespace Service;
 
-use TCPDF;
-
 require __DIR__ . "/../vendor/autoload.php";
 
-class ProposalExporter extends TCPDF
+use Service\MyTCPDF;
+
+class ProposalExporter
 {
 
     public object $pdf;
-
-    public float $positionY = -1;
-
-    public float $positionX = -1;
 
     public float $line = 0;
 
     public function __construct()
     {
         
-        $this->pdf = parent::__construct();
+        $this->pdf = new MyTCPDF;
 
-        $this->header();
-
-    }
-
-    public function header():void
-    {
-
-        $this->pdf->addPage();
-
-        $header = [
-            [
-                "position" =>
-                    [
-                        "X" => 85,
-                        "Y" => 20
-                    ],
-                "cellSize" =>
-                    [
-                        "width" => 40,
-                        "height" => 7
-                    ],
-                "font" =>
-                    [
-                    "size" => 16,
-                    "style" => "B"
-                    ],
-                "html" => "PROPOSTA",
-                "align" => "C"
-            ]
-        ];
-
-        $this->pdf->Image("img/logo.png",10,7.5,40,30,'PNG');
-        $this->write($header);
+        $this->pdf->AddPage();
 
     }
 
@@ -72,13 +36,13 @@ class ProposalExporter extends TCPDF
 
         foreach($data as $line => $content) {
 
-            if ($this->positionY != -1) {
+            if ($this->pdf->positionY != -1) {
 
-                $this->positionY += + $content['position']['Y'];
+                $this->pdf->positionY += $content['position']['Y'];
 
             } else {
 
-                $this->positionY = $content['position']['Y'];
+                $this->pdf->positionY = $content['position']['Y'];
 
             }
 
@@ -93,7 +57,7 @@ class ProposalExporter extends TCPDF
                     $content['cellSize']['width'],
                     $content['cellSize']['height'],
                     $content['position']['X'],
-                    $this->positionY,
+                    $this->pdf->positionY,
                     $content['html'],
                     'B',
                     true,
@@ -109,7 +73,7 @@ class ProposalExporter extends TCPDF
                     $content['cellSize']['width'],
                     $content['cellSize']['height'],
                     $content['position']['X'],
-                    $this->positionY,
+                    $this->pdf->positionY,
                     $content['html'],
                     false,
                     true,
@@ -120,7 +84,7 @@ class ProposalExporter extends TCPDF
 
             }
 
-            $this->positionY = $this->pdf->GetY();
+            $this->pdf->positionY = $this->pdf->GetY();
 
         }
 
@@ -132,9 +96,9 @@ class ProposalExporter extends TCPDF
         foreach($data as $line => $content) {
 
 
-            if ($this->positionX != -1) {
+            if ($this->pdf->positionX != -1) {
 
-                $positionX = $this->positionX + $content['position']['X'];
+                $positionX = $this->pdf->positionX + $content['position']['X'];
 
             } else {
 
@@ -142,13 +106,13 @@ class ProposalExporter extends TCPDF
 
             }
 
-            if ($this->positionY != -1) {
+            if ($this->pdf->positionY != -1) {
 
-                $this->positionY += + $content['position']['Y'];
+                $this->pdf->positionY += + $content['position']['Y'];
 
             } else {
 
-                $this->positionY = $content['position']['Y'];
+                $this->pdf->positionY = $content['position']['Y'];
 
             }
 
@@ -158,21 +122,28 @@ class ProposalExporter extends TCPDF
                 $content['cellSize']['width'],
                 $content['cellSize']['height'],
                 $positionX,
-                $this->positionY,
+                $this->pdf->positionY,
                 $content['html'],
-                true,
+                $content['border'],
                 true,
                 false,
                 true,
                 $content['align'],
                 true);
 
-            $this->positionX = $this->pdf->GetX();
+            $this->pdf->positionX = $this->pdf->GetX();
 
         }
 
-        $this->positionY = $this->pdf->GetY();
-        $this->positionX = -1;
+        $this->pdf->positionY = $this->pdf->GetY();
+        $this->pdf->positionX = -1;
+
+    }
+
+    public function addPage():void
+    {
+
+        $this->pdf->AddPage();
 
     }
 
@@ -180,6 +151,13 @@ class ProposalExporter extends TCPDF
     {
 
         $this->pdf->output('I');
+
+    }
+
+    public function getY():float
+    {
+
+        return $this->pdf->GetY();
 
     }
 
