@@ -7,7 +7,7 @@ require __DIR__ . "/../vendor/autoload.php";
 class InstallmentValidator
 {
 
-    public function validate(string $money):float
+    public function validator(string $money):float
     {
 
         $money = str_replace('R$', '', $money);

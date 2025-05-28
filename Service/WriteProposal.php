@@ -3,9 +3,8 @@ namespace Service;
 
 require __DIR__ . "/../vendor/autoload.php";
 
-use Service\MyTCPDF;
 
-class ProposalExporter
+class WriteProposal
 {
 
     public object $pdf;
@@ -16,8 +15,6 @@ class ProposalExporter
     {
         
         $this->pdf = new MyTCPDF;
-
-        $this->pdf->AddPage();
 
     }
 
@@ -34,7 +31,7 @@ class ProposalExporter
     public function writeLine($data):void
     {
 
-        foreach($data as $line => $content) {
+        foreach($data as $content) {
 
             if ($this->pdf->positionY != -1) {
 
@@ -93,7 +90,7 @@ class ProposalExporter
     public function writeTable($data):void
     {
 
-        foreach($data as $line => $content) {
+        foreach($data as $content) {
 
 
             if ($this->pdf->positionX != -1) {
@@ -128,8 +125,7 @@ class ProposalExporter
                 true,
                 false,
                 true,
-                $content['align'],
-                true);
+                $content['align']);
 
             $this->pdf->positionX = $this->pdf->GetX();
 
@@ -154,10 +150,70 @@ class ProposalExporter
 
     }
 
-    public function getY():float
+    public function writePage($page,$finalVerify):void
     {
 
-        return $this->pdf->GetY();
+        if(!$finalVerify){
+
+            $this->addPage();
+
+        }
+
+        # Foreach para separar as linhas dos arrays
+
+
+        foreach($page as $line)
+        {
+            # Verifica se é tabela.
+
+            if($line['table'])
+            {
+
+                # Não importa os dados das variáveis 'table' e 'spouse' para a tela.
+
+                foreach($line as $index => $row){
+
+                    if($index != 'table' and $index != 'spouse')
+                    {
+
+                        $this->writeTable($row);
+
+                    }
+
+                }
+
+                # Verifica se tem a variável spouse no array, se tiver, adiciona outra página para o próximo comprador
+
+                if(isset($line['spouse']))
+                {
+
+                    if($line['spouse'])
+                    {
+
+                        $this->writePage([$page[0]],false);
+
+                    }
+
+                }
+
+            }else{
+
+                # Verifica se é Linha/Texto solto.
+
+                foreach($line as $index => $row){
+
+                    if($index != 'table')
+                    {
+
+                        $this->writeLine($row);
+
+                    }
+
+                }
+
+            }
+
+        }
 
     }
 

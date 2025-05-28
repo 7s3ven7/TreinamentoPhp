@@ -13,7 +13,9 @@ class MyTCPDF extends TCPDF
 
     public float $positionX = -1;
 
-    public function header():void
+    public bool $validator = true;
+
+    public function header(): void
     {
 
         $this->positionY = -1;
@@ -41,48 +43,53 @@ class MyTCPDF extends TCPDF
             ]
         ];
 
-        parent::Image("img/logo.png",10,7.5,40,30,'PNG');
+        parent::Image("img/logo.png", 10, 7.5, 40, 30, 'PNG');
         $this->writeLine($header);
 
     }
 
-    public function footer():void
+    public function footer(): void
     {
 
-        $footer = [
-            [
-                "position" =>
-                    [
-                        "X" => 170,
-                        "Y" => -20
-                    ],
-                "cellSize" =>
-                    [
-                        "width" => 30,
-                        "height" => 10
-                    ],
-                "font" =>
-                    [
-                        "size" => 12,
-                        "style" => "B"
-                    ],
-                "html" => "Página " . $this->page . " De " . parent::GetNumPages(),
-                "align" => "C"
-            ]
-        ];
+        if ($this->validator) {
 
-        parent::Image("img/footer.png",10,275,160,15,'PNG');
-        $this->writeLine($footer);
+            $footer = [
+                [
+                    "position" =>
+                        [
+                            "X" => 170,
+                            "Y" => -20
+                        ],
+                    "cellSize" =>
+                        [
+                            "width" => 60,
+                            "height" => 15
+                        ],
+                    "font" =>
+                        [
+                            "size" => 12,
+                            "style" => "B"
+                        ],
+                    "html" => "Página " . $this->getAliasNumPage() . " De " . $this->getAliasNbPages(),
+                    "align" => "C"
+                ]
+            ];
 
+            parent::Image("img/footer.png", 10, 270, 160, 15, 'PNG');
+
+            $this->writeLine($footer);
+
+        }
 
     }
+
 
     public function writeLine($data):void
     {
 
         $this->positionY = parent::GetY();
 
-        foreach($data as $line => $content) {
+        foreach($data as $content) {
 
             if ($this->positionY != -1) {
 
