@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe096a7f-5088-445a-a21e-ff531f60ebb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/curso.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/MyTCPDF.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/ToStorePageFormat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/WriteProposal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Validator/AreaValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Validator/DataPostValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Validator/InstallmentValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/CHANGELOG.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/config/tcpdf_config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/ae_fonts_2.0/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/ae_fonts_2.0/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/ae_fonts_2.0/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/aealarabiya.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/aealarabiya.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/aealarabiya.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/aefurat.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/aefurat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/aefurat.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/cid0cs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/cid0ct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/cid0jp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/cid0kr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/courier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/courierb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/courierbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/courieri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.33/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.33/BUGS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.33/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.33/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.33/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.33/langcover.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.33/unicover.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.34/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.34/BUGS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.34/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.34/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.34/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.34/langcover.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavu-fonts-ttf-2.34/unicover.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusans.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusans.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusans.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansb.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansbi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensed.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensed.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedb.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedbi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusanscondensedi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansextralight.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansextralight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansextralight.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmono.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmono.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmono.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonob.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonob.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonob.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonobi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonobi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonobi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonoi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonoi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavusansmonoi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserif.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserif.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserif.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifb.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifbi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensed.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensed.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedb.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedbi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifcondensedi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/dejavuserifi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20100919/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20100919/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20100919/CREDITS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20100919/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20100919/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20100919/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/CREDITS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/TROUBLESHOOTING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freefont-20120503/USAGE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemono.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemono.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemono.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonob.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonob.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonob.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonobi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonobi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonobi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonoi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonoi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freemonoi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesans.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesans.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesans.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansb.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansbi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freesansi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserif.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserif.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserif.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifb.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifbi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifi.ctg.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/freeserifi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/helvetica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/helveticab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/helveticabi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/helveticai.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/hysmyeongjostdmedium.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/kozgopromedium.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/kozminproregular.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/msungstdlight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourier.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourierb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourierb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourierbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourierbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourieri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfacourieri.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelvetica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelvetica.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelveticab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelveticab.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelveticabi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelveticabi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelveticai.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfahelveticai.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfasymbol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfasymbol.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimes.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimesb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimesb.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimesbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimesbi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimesi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfatimesi.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfazapfdingbats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/pdfazapfdingbats.z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/stsongstdlight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/symbol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/times.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/timesb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/timesbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/timesi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/uni2cid_ac15.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/uni2cid_ag15.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/uni2cid_aj16.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/uni2cid_ak12.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/fonts/zapfdingbats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/barcodes/datamatrix.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/barcodes/pdf417.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/barcodes/qrcode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/sRGB.icc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/tcpdf_colors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/tcpdf_filters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/tcpdf_font_data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/tcpdf_fonts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/tcpdf_images.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/include/tcpdf_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/tcpdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/tcpdf_autoconfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/tcpdf_barcodes_1d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/tcpdf_barcodes_2d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/tools/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/tools/convert_fonts_examples.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tecnickcom/tcpdf/tools/tcpdf_addfont.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/RainTPL/composer.json" />
+      <option value="$PROJECT_DIR$/composer/composer.json" />
+      <option value="$PROJECT_DIR$/aprendizado/RainTPL/composer.json" />
+      <option value="$PROJECT_DIR$/aprendizado/Email/composer.json" />
+      <option value="$PROJECT_DIR$/aprendizado/composer/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/doZero/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/aprendizado/Email/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/aprendizado/RainTPL/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/aprendizado/API/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/aprendizado/composer/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/PhpOffice/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/Mock/composer.json" />
+      <option value="$PROJECT_DIR$/TestesGeral/aprendizado/slimFramework/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CRUD/code/phpClasses/src/User.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Server\PHP\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/Email/vendor/composer" />
+      <path value="$PROJECT_DIR$/Email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/RainTPL/vendor/composer" />
+      <path value="$PROJECT_DIR$/RainTPL/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/composer/vendor/composer" />
+      <path value="$PROJECT_DIR$/composer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/aprendizado/RainTPL/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/aprendizado/RainTPL/vendor/composer" />
+      <path value="$PROJECT_DIR$/aprendizado/RainTPL/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/aprendizado/Email/vendor/composer" />
+      <path value="$PROJECT_DIR$/aprendizado/Email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/aprendizado/composer/vendor/composer" />
+      <path value="$PROJECT_DIR$/aprendizado/composer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/composer" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/Email/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/Email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/RainTPL/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/RainTPL/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/RainTPL/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/slim/http" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/composer/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/composer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/projeto/classes_php" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/slimFramework/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/slimFramework/vendor/composer" />
+      <path value="$PROJECT_DIR$/carvalhoImoveis/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/carvalhoImoveis/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vUVYXowg3lvCVDlbMse4FbgpIc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.Cadastro.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.DB.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Person.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.User.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Usuario.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.acessarArquivos.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.config.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.discountCalculator.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.errorHandler.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.fileOpen.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.gd.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.gdComFontes.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.gdDeFotoJaExistente.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.getCookie.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.getImgMM.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.getLog.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.log.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.setCookie.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.sql.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.teste.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.testes.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.thambnail.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.unlink.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.BadWordsValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.BadWordsValidatorTest.testHasBadWords.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CreditCardExpirationValidatorTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CreditCardExpirationValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CreditCardNumberValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CreditCardNumberValidatorTest.testValid.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CustomerTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.FidelityProgramServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.NotEmptyValidatorTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.NotEmptyValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.NotEmptyValidatorTest.testShouldNotBeValidWhenValueIsEmpty.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.NotEmptyValidatorTest.testValid.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.NumericValidatorTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.NumericValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.TestDb.TestCrud.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.TestDb.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.TestSessionMiddleware.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.TestUser (1).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.TestUser.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserRegistrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testCreateAndDelete.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testGeneralUser.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testGetValues.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testGetters.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testRead.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testSession.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserTest.testUser.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.hasBadWords.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.isAllowedToOrder.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.test.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testCreateAndDelete (1).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testCreateAndDelete (2).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testCreateAndDelete.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testDb.Existent.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testDb.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testSessionMiddleware.TestSession.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.testSessionMiddleware.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testUser.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testUser.testReturnArrayFromUsers.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testValid (1).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testValid (2).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testValid (3).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testValid (4).executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.testValid.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wesle/Downloads/inspections.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wesle\curso\projetoEcomerce\vendor\projeto\src\DB\views\admin" />
+      <recent name="C:\Users\wesle\curso" />
+      <recent name="C:\Users\wesle\curso\slimFramework\vendor" />
+      <recent name="C:\Users\wesle\curso\testesComDiretorios\imagens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wesle\curso" />
+      <recent name="C:\Users\wesle\curso\TestesGeral\TCPDF\exemplo1" />
+      <recent name="C:\Users\wesle\curso\TestesGeral\TCPDF" />
+      <recent name="C:\Users\wesle\curso\TestesGeral" />
+      <recent name="C:\Users\wesle\curso\CRUD\Tests\Repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.UserTest">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/Email/composer.json" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestesGeral\test\curso-php-phpunit\parte_2" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MyApp\Test\Entity\TestUser\UserTest" file="$PROJECT_DIR$/CRUD/Tests/Entity/UserTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.testCreateAndDelete" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MyApp\Test\Entity\TestUser\UserTest" file="$PROJECT_DIR$/CRUD/Tests/Entity/UserTest.php" method="testCreateAndDelete" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.testSession" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MyApp\Test\Entity\TestUser\UserTest" file="$PROJECT_DIR$/CRUD/Tests/Entity/UserTest.php" method="testSession" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.testUpdate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="MyApp\Test\Entity\TestUser\UserTest" file="$PROJECT_DIR$/CRUD/Tests/Entity/UserTest.php" method="testUpdate" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testCreateAndDelete" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner file="$PROJECT_DIR$/CRUD/Tests/Entity/UserTest.php" scope="Pattern">
+        <test_patterns>
+          <composite_test_pattern class_fqn="MyApp\Test\Entity\TestUser\UserTest" file_path="$PROJECT_DIR$/CRUD/Tests/Entity/UserTest.php" dataset="ValidForm" method_name="testCreateAndDelete" />
+        </test_patterns>
+      </TestRunner>
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine workingDirectory="$PROJECT_DIR$/testes" />
+      <TestRunner configuration_file="$PROJECT_DIR$/aprendizado/slimFramework/vendor/slim/slim/phpunit.xml.dist" directory="$PROJECT_DIR$/testes" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.UserTest" />
+        <item itemvalue="PHPUnit.UserTest.testCreateAndDelete" />
+        <item itemvalue="PHPUnit.UserTest.testSession" />
+        <item itemvalue="PHPUnit.UserTest.testUpdate" />
+        <item itemvalue="PHPUnit.testCreateAndDelete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.26053.13" />
+        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.26053.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe096a7f-5088-445a-a21e-ff531f60ebb1" name="Changes" comment="" />
+      <created>1744199689842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744199689842</updated>
+      <workItem from="1744199690365" duration="8905000" />
+      <workItem from="1744285302502" duration="9770000" />
+      <workItem from="1744297710949" duration="1700000" />
+      <workItem from="1744372039583" duration="353000" />
+      <workItem from="1744372408542" duration="1773000" />
+      <workItem from="1744374207848" duration="11067000" />
+      <workItem from="1744631184672" duration="12398000" />
+      <workItem from="1744717653371" duration="12598000" />
+      <workItem from="1744803212865" duration="14212000" />
+      <workItem from="1744891033667" duration="9637000" />
+      <workItem from="1744901211143" duration="3590000" />
+      <workItem from="1744904856388" duration="11000" />
+      <workItem from="1745322464679" duration="13761000" />
+      <workItem from="1745411330722" duration="13174000" />
+      <workItem from="1745496183425" duration="14029000" />
+      <workItem from="1745581579268" duration="14107000" />
+      <workItem from="1745841971477" duration="13604000" />
+      <workItem from="1745930208173" duration="9557000" />
+      <workItem from="1746013425375" duration="10359000" />
+      <workItem from="1746187838079" duration="13369000" />
+      <workItem from="1746446678290" duration="13840000" />
+      <workItem from="1746532034796" duration="11660000" />
+      <workItem from="1746619821456" duration="11665000" />
+      <workItem from="1746705292823" duration="14522000" />
+      <workItem from="1746792152879" duration="13958000" />
+      <workItem from="1747049844058" duration="13993000" />
+      <workItem from="1747137910674" duration="13871000" />
+      <workItem from="1747230363867" duration="1789000" />
+      <workItem from="1747309308479" duration="13764000" />
+      <workItem from="1747397301332" duration="12877000" />
+      <workItem from="1747655403444" duration="13373000" />
+      <workItem from="1747741813088" duration="13646000" />
+      <workItem from="1747827947278" duration="13859000" />
+      <workItem from="1747913773967" duration="2205000" />
+      <workItem from="1747916261216" duration="402000" />
+      <workItem from="1747916712130" duration="11904000" />
+      <workItem from="1747999865240" duration="14885000" />
+      <workItem from="1748259591477" duration="7037000" />
+      <workItem from="1748267415922" duration="6368000" />
+      <workItem from="1748346457120" duration="13716000" />
+      <workItem from="1748433962151" duration="11919000" />
+      <workItem from="1748520228528" duration="12609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
