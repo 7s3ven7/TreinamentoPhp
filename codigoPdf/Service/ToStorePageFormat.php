@@ -577,7 +577,7 @@ class ToStorePageFormat
                     'size' => 10,
                     'style' => ''
                 ],
-                'html' => $this->data->values['price'],
+                'html' => $this->data->values['installmentNumber'],
                 'align' => 'C',
                 'border' => true
             ],

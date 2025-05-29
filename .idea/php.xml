@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="codingStandard" value="Custom" />
+    <option name="customRuleset" value="/private/var/www/termonos/resources/style-guide/php/standard-ruleset.xml" />
+    <option name="extensions" value="php" />
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Email/vendor/composer" />
+      <path value="$PROJECT_DIR$/Email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/RainTPL/vendor/composer" />
+      <path value="$PROJECT_DIR$/RainTPL/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/composer/vendor/composer" />
+      <path value="$PROJECT_DIR$/composer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/aprendizado/RainTPL/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/aprendizado/RainTPL/vendor/composer" />
+      <path value="$PROJECT_DIR$/aprendizado/RainTPL/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/aprendizado/Email/vendor/composer" />
+      <path value="$PROJECT_DIR$/aprendizado/Email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/aprendizado/composer/vendor/composer" />
+      <path value="$PROJECT_DIR$/aprendizado/composer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/composer" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/CRUD/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/doZero/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/TestesGeral/test/curso-php-phpunit/parte_2/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/Email/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/Email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/RainTPL/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/RainTPL/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/RainTPL/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/slim/http" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/API/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/APIsChatgpt/um/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/composer/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/composer/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/projeto/classes_php" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/projetoEcomerce/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/TestesGeral/PhpOffice/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/TestesGeral/Mock/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/slimFramework/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/TestesGeral/aprendizado/slimFramework/vendor/composer" />
+      <path value="$PROJECT_DIR$/carvalhoImoveis/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/carvalhoImoveis/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/codigoPdf/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/codigoPdf/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
